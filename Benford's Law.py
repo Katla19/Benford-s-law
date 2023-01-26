@@ -37,5 +37,7 @@ def check_benford(image):
     print(proportions)
     plt.bar(range(1, 10), proportions)
     plt.show()
+    plt.bar(range(1, 10), deviations)
+    plt.show()
 
 check_benford("image.jpg")
